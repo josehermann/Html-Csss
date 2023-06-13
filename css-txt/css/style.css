@@ -1,0 +1,45 @@
+body {
+    /* Police de caractère */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* taille */
+    font-size: 18px;
+
+    /* style */
+    font-style: normal;
+    /* normal | italic */
+
+    /* Epaisseur de la police (bold c'est gras) */
+    font-weight: bold;
+    /* normal | bold */
+
+    color: #333;
+
+    
+}
+
+h1 {
+    /* Majuscule, minuscule */
+ text-transform: uppercase;
+ /* uppercase | lovercase | capitalize */
+
+
+/* Allignement du texte */
+ text-align: center;
+ /* center| left |right | justify */
+}
+
+.list-definition{
+   list-style: none;
+}
+
+.link{ text-decoration: none;}
+
+.link:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: red;
+}

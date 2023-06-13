@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+
+.container{
+    background-color: pink;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+.item-2{
+    display: flex;
+    gap: 5px;
+    align-items: end;
+}

@@ -1,0 +1,35 @@
+img{
+    display: inline-block;
+}
+
+
+.photo{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: center;
+
+}
+
+
+.container2{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: pink;
+    margin: center;
+    
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    background-image: linear-gradient(rgba(133, 16, 16, 0));
+    
+
+}
+
+

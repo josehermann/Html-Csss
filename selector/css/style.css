@@ -1,0 +1,24 @@
+/*  */
+
+h2{
+    color: green;
+}
+
+#you{ color: blue;
+
+}
+/* les id ne sont pas à utliliser dans css on le laisse pour le javasscript et  le html */
+
+.baz{
+    color: purple;
+}
+h1,.txt
+{
+    color: orange;
+}
+.oo{
+    color: pink;
+}
+.ket h2 {
+    color: pink;
+}

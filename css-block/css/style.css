@@ -1,0 +1,79 @@
+*{margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ font-size: 14px;
+
+}
+
+h1{
+ 
+    /* Largeur */
+/* Largeur par défaut la valeur est auti  {width: 100 % auto; } */
+background-color: pink;
+    
+    /* width: 400px;  */
+    margin:auto
+
+    /* Margin auto c'est pour  l'élement bloc 
+    text-align c'est uniquement pour le text */
+   
+
+}
+
+.container{
+    /* background-color: rgb(29, 219, 29); */
+
+    /* hauteur */
+/* Hauteur par défaut la valeur est auti  {height: auto; } */
+display: block;
+
+width: 50px;
+
+    height: 300px;
+    /* min-height hauteur minimum */
+
+    /* Margin sert à mettre de la marche extérieur. Ilya  pleins de raccourci
+    margin-top: 100px     marge extérieur en haut
+    margin-right: 100px    marge extérieur à droite
+    margin-bottom: 100px   marge extérieur en bas
+    margin-left: 100px      marge extérieur à gauche*/ 
+    margin: 50px auto;
+    /* Pour margin le lire  dans le sens des aiguilles d'une montre
+    Margin: auto sert à centrer un élément bloc
+
+    avec body la hauteur ca ne marche pas
+
+    padding c'est la marge interne
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px ;
+    padding 50 et 20 le premier verticalement  et l'autre horizontalement sens d'une montre
+    par défaut la largeur est auto 100 px
+    par défaut la hauteur vaut 0 soit auto
+
+    */
+
+padding: 50px 20px;
+border: 1px solid black;
+/* Pareil comme les padding il ya des border bottom des border right etc */
+box-shadow: 4px  10px 10px #000;
+border-radius: 5px;
+
+/* box-shadow est pour créer une ombre  la première valeur  doit ètre en pixel et c(est pour dire si l'ombre est décalé vers la droit ou vers la gacuhe ( -bas haut) c'est la gauche et (+(gauche droite) c'est la droite
+0 c'est pour mettre partout */
+}
+.circle{ background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin:auto ;  
+    /* centrer un bloc*/
+   border-radius: 50px;
+   
+
+   /* Pour faire  un cercle utiliser  un border-radius de 50 ou 100px */
+
+}
